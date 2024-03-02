@@ -1,0 +1,39 @@
+﻿<ResourceDictionary 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Dependencies-->
+    <system:String x:Key="Updater.DL.Dep.Download">Herunterladen</system:String>
+    <system:String x:Key="Updater.DL.Dep.Install">Installieren</system:String>
+    <system:String x:Key="Updater.DL.Dep.Update">Aktualisieren</system:String>
+    <system:String x:Key="Updater.DL.Dep.Downloading">Wird heruntergeladen</system:String>
+    <system:String x:Key="Updater.DL.Dep.Installing">Wird installiert</system:String>
+    <system:String x:Key="Updater.DL.Dep.Updating">Wird aktualisiert</system:String>
+    <system:String x:Key="Updater.DL.Dep.Completed">Fertig.</system:String>
+    <system:String x:Key="Updater.DL.Dep.Copying">Dateien werden kopiert...</system:String>
+
+    <system:String x:Key="Updater.DL.Offline.Title">Offline Installierung</system:String>
+    <system:String x:Key="Updater.DL.Offline.Failed">Konnte {0} nicht Herunterladen</system:String>
+    <system:String x:Key="Updater.DL.Offline.InstallAttempt">Offline Installierung wird versucht, warten sie bitte...</system:String>
+
+    <!--Mod Update-->
+    <system:String x:Key="Updater.DL.Mod.Init">Die Herunterladung wird vorbereitet, warten sie bitte...</system:String>
+    <system:String x:Key="Updater.DL.Mod.Extracting">Wird extrahiert...</system:String>
+    <system:String x:Key="Updater.DL.Mod.ParsingManifest">Parsing manifest...</system:String>
+    <system:String x:Key="Updater.DL.Mod.ApplyingManifest">manifest wird angewendet...</system:String>
+    <system:String x:Key="Updater.DL.Mod.DownloadingFile">Datei wird heruntergeladen</system:String>
+    <system:String x:Key="Updater.DL.Mod.of">von</system:String> <!-- "of" files to download-->
+    <system:String x:Key="Updater.DL.Mod.UpdatingMod">Mod wird aktualisiert
+
+    </system:String>
+    <system:String x:Key="Updater.DL.Mod.StartingDownload">Die Herunterladung wird gestartet...</system:String>
+    <system:String x:Key="Updater.DL.Mod.DownloadComplete">Die Herunterladung ist fertig.</system:String>
+
+    <system:String x:Key="Updater.DL.Mod.ManifestFail">Konnte manifest nicht herunterladen</system:String>
+    <system:String x:Key="Updater.DL.Mod.ManifestApplyFail">Konnte manifest nicht anwenden</system:String>
+
+
+
+
+</ResourceDictionary>
