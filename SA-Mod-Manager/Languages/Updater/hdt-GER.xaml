@@ -27,8 +27,8 @@
     <system:String x:Key="Updater.DL.Mod.UpdatingMod">Mod wird aktualisiert
 
     </system:String>
-    <system:String x:Key="Updater.DL.Mod.StartingDownload">Die Herunterladung wird gestartet...</system:String>
-    <system:String x:Key="Updater.DL.Mod.DownloadComplete">Die Herunterladung ist fertig.</system:String>
+    <system:String x:Key="Updater.DL.Mod.StartingDownload">Das Herunterladen wird gestartet...</system:String>
+    <system:String x:Key="Updater.DL.Mod.DownloadComplete">Das Herunterladen ist fertig.</system:String>
 
     <system:String x:Key="Updater.DL.Mod.ManifestFail">Konnte manifest nicht herunterladen</system:String>
     <system:String x:Key="Updater.DL.Mod.ManifestApplyFail">Konnte manifest nicht anwenden</system:String>

@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
+	
+	<system:String x:Key="ManagerProfile.Title">Profile Verwalten</system:String>
+	<system:String x:Key="ManagerProfile.Buttons.Rename">Profile Umbenennen</system:String>
+	<system:String x:Key="ManagerProfile.Buttons.Create">Profil Erstellen</system:String>
+	<system:String x:Key="ManagerProfile.Buttons.Migrate">Importieren</system:String>
+	<system:String x:Key="ManagerProfile.Path">Dateipfad</system:String>
+	<system:String x:Key="ManagerProfile.ContextMenu.Rename">Umbenennen</system:String>
+	<system:String x:Key="ManagerProfile.ContextMenu.Duplicate">Duplizieren</system:String>
+	<system:String x:Key="ManagerProfile.ContextMenu.Delete">Löschen</system:String>
+	<system:String x:Key="ManagerProfile.Errors.Unexpected">Unerwarteter Fehler, Profil konnte nicht Umbennant werden.</system:String>
+	<system:String x:Key="ManagerProfile.Errors.ProfileExists.Title">Fehler, Profil existiert bereits.</system:String>
+	<system:String x:Key="ManagerProfile.Errors.ProfileExists">Ein Profil mit diesen Namen existiert bereits, bitte benutzen sie ein anderen Namen.</system:String>
+	
+	<system:String x:Key="ManagerProfile.ToolTip.Create">Erstelle ein neues Profil.</system:String>
+	<system:String x:Key="ManagerProfile.ToolTip.Migrate">Importiere bereits existierene Profile (json) oder migriere alte Profile (ini).</system:String>
+
+	<system:String x:Key="NewProfile.Title">Erstelle ein Profil</system:String>
+	<system:String x:Key="NewProfile.Text.NewProfile">Neues Profil</system:String>
+	<system:String x:Key="NewProfile.CheckBox.ModsAndCodes">Behalte Mods und Codes die gerade Ausgewählt sind.</system:String>
+</ResourceDictionary>
